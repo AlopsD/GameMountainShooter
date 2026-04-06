@@ -1,4 +1,4 @@
-class entity_factory:
+class Entity_factory:
     def __init__(self):
         pass
 

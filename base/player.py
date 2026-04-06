@@ -1,7 +1,7 @@
-from entity import entity
+from entity import Entity
 
 
-class player(entity):
+class Player(Entity):
     def __init__(self):
         pass
 
