@@ -1,0 +1,6 @@
+class entity_factory:
+    def __init__(self):
+        pass
+
+    def get_entity(self, entity_type: str):
+        pass
