@@ -1,4 +1,6 @@
-class enemy:
+from entity import entity
+
+class enemy(entity):
     def __init__(self):
         pass
 

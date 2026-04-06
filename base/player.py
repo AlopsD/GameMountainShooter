@@ -1,4 +1,7 @@
-class player:
+from entity import entity
+
+
+class player(entity):
     def __init__(self):
         pass
 
