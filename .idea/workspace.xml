@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="add class entity and import entity background">
+    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="update background.py">
+      <change afterPath="$PROJECT_DIR$/base/const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -124,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775242715867</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update background.py">
+      <option name="closed" value="true" />
+      <created>1775573594843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775573594843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="game dev" />
     <MESSAGE value="add requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="add requirements" />
+    <MESSAGE value="update background.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update background.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GameMountain$main.coverage" NAME="main Coverage Results" MODIFIED="1775240152502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
