@@ -4,5 +4,5 @@ class Background(Entity):
     def __init__(self):
         pass
 
-    def move(self):
+    def move(self, ):
         pass
