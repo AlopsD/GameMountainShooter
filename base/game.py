@@ -7,7 +7,7 @@ class Game:
     def __init__(self):
         pygame.init()
 
-        self.window = pygame.display.set_mode((WIN_HEIGHT,WIN_WIDTH))
+        self.window = pygame.display.set_mode((WIN_WIDTH,WIN_HEIGHT))
 
     def run(self, ):
 
