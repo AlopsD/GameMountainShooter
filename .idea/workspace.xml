@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="add imagem and sound">
+    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="add key event">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/level.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775603943864</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add key event">
+      <option name="closed" value="true" />
+      <created>1775995429903</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1775995429903</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +315,8 @@
     <MESSAGE value="add windows blank for game.py" />
     <MESSAGE value="add run game for main.py" />
     <MESSAGE value="add imagem and sound" />
-    <option name="LAST_COMMIT_MESSAGE" value="add imagem and sound" />
+    <MESSAGE value="add key event" />
+    <option name="LAST_COMMIT_MESSAGE" value="add key event" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GameMountain$game.coverage" NAME="game Coverage Results" MODIFIED="1775601817428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
