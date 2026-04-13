@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="creating menu, text, background and font&#10;inserting all assets">
-      <change afterPath="$PROJECT_DIR$/asset/Level/level_bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level/level_bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level/level_bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level/level_bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level/level_bg4.png" afterDir="false" />
+    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="add image background level and add function for image background">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/background.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/const.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/entity_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/entity_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/level.py" afterDir="false" />
     </list>
@@ -173,7 +168,7 @@
       <workItem from="1775223348966" duration="7293000" />
       <workItem from="1775338492526" duration="34000" />
       <workItem from="1775338577552" duration="1421000" />
-      <workItem from="1776078396256" duration="6189000" />
+      <workItem from="1776078396256" duration="11322000" />
     </task>
     <task id="LOCAL-00001" summary="game dev">
       <option name="closed" value="true" />
@@ -295,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775995429903</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add image background level and add function for image background">
+      <option name="closed" value="true" />
+      <created>1776097826817</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1776097826817</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,11 +331,12 @@
     <MESSAGE value="add run game for main.py" />
     <MESSAGE value="add imagem and sound" />
     <MESSAGE value="add key event" />
-    <option name="LAST_COMMIT_MESSAGE" value="add key event" />
+    <MESSAGE value="add image background level and add function for image background" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image background level and add function for image background" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GameMountain$game.coverage" NAME="game Coverage Results" MODIFIED="1775601817428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/GameMountain$menu.coverage" NAME="menu Coverage Results" MODIFIED="1775602077682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
-    <SUITE FILE_PATH="coverage/GameMountain$main.coverage" NAME="main Coverage Results" MODIFIED="1776097513239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameMountain$main.coverage" NAME="main Coverage Results" MODIFIED="1776105121741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
