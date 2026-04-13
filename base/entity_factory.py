@@ -1,6 +1,13 @@
-class Entity_factory:
-    def __init__(self):
-        pass
+from base.background import Background
 
-    def get_entity(self, entity_type: str):
-        pass
+
+class Entity_factory:
+
+    @staticmethod
+    def get_entity(entity_type: str, position = (0,0)):
+        match entity_type:
+            case 'level_bg':
+                list_bg = []
+                for i in range (5):
+                    list_bg.append(Background('level_bg' + str(i), (0,0)))
+                return list_bg
