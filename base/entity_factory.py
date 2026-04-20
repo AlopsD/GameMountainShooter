@@ -22,10 +22,10 @@ class Entity_factory:
             case 'player2':
                 return  Player('player2', (10, WIN_HEIGHT / 2 + 25))
             case 'enemy1':
-                return Enemy('enemy1', (WIN_WIDTH, random.randint(0 + 25, WIN_HEIGHT - 25)))
+                return Enemy('enemy1', (WIN_WIDTH, random.randint(25, WIN_HEIGHT - 25)))
             case 'enemy2':
-                return Enemy('enemy2', (WIN_WIDTH, random.randint(0 + 25, WIN_HEIGHT - 25)))
+                return Enemy('enemy2', (WIN_WIDTH, random.randint(25, WIN_HEIGHT - 25)))
             case 'enemy3':
-                return Enemy('enemy3', (WIN_WIDTH, random.randint(0 + 25, WIN_HEIGHT - 25)))
+                return Enemy('enemy3', (WIN_WIDTH, random.randint(25, WIN_HEIGHT - 25)))
             case 'enemy4':
-                return Enemy('enemy4', (WIN_WIDTH, random.randint(0 + 25, WIN_HEIGHT - 25)))
+                return Enemy('enemy4', (WIN_WIDTH, random.randint(25, WIN_HEIGHT - 25)))
