@@ -6,11 +6,13 @@ import pygame.image
 class Entity(ABC):
     def __init__(self, name: str, position: tuple):
         self.name = name
-        direct = str
+        direct = ''
         if name[0:2] == 'pl':
             direct = 'player'
         if name[0:2] == 'le':
             direct = 'level'
+        if name[0:2] == 'en':
+            direct = 'enemy'
 
         self.surf = pygame.image.load('./asset/'+ direct +'/' + name + '.png').convert_alpha()
         self.rect = self.surf.get_rect(left = position[0], top = position[1])
