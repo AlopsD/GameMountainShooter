@@ -9,6 +9,8 @@ EVENT_ENEMY = pygame.USEREVENT + 1
 
 ENTITY_SPEED = {'level_bg0':0,'level_bg1':1,'level_bg2':2,'level_bg3':3,'level_bg4':4, 'player1': 3, 'player2' : 3, 'enemy1':5,'enemy2': 4,'enemy3': 6,'enemy4':7}
 
+ENTITY_HEALTH = {'level_bg0':999,'level_bg1':999,'level_bg2':999,'level_bg3':999,'level_bg4':999, 'player1': 300,'player2' : 300, 'enemy1':50,'enemy2': 70,'enemy3': 30,'enemy4':25,}
+
 #M
 
 MENU_OPTIONS = ('NEW GAME 1P','NEW GAME 2P - COOPERATIVE', 'NEW GAME 2P - COMPETITIVE', 'GAME OVER','QUIT')

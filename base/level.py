@@ -8,7 +8,7 @@ from pygame.font import Font
 from base.const import COLOR_WHITE, WIN_HEIGHT, MENU_OPTIONS, EVENT_ENEMY, SPAWN_TIME
 from base.entity import Entity
 from base.entity_factory import Entity_factory
-
+from base.entity_mediator import Entity_Mediator
 
 class Level:
     def __init__(self, window, name, game_option):
@@ -49,6 +49,9 @@ class Level:
             self.level_text(14, f'entidade: {len(self.entity_list)}', COLOR_WHITE, (10,WIN_HEIGHT - 20) )
 
             pygame.display.flip()
+
+            Entity_Mediator.verify_collision(entity_list= self.entity_list)
+            Entity_Mediator.verify_health(entity_list= self.entity_list)
 
     def level_text(self, text_size: int, text:str , text_color : tuple, text_position: tuple):
         text_font: Font = pygame.font.SysFont(name='Lucida Sans Typewriter', size=text_size)

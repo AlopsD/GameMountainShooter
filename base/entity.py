@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 
 import pygame.image
 
+from base.const import ENTITY_HEALTH
+
 
 class Entity(ABC):
     def __init__(self, name: str, position: tuple):
@@ -18,6 +20,7 @@ class Entity(ABC):
         self.rect = self.surf.get_rect(left = position[0], top = position[1])
         self.mask = pygame.mask.from_surface(self.surf)
         self.speed = 0
+        self.health = ENTITY_HEALTH[self.name]
 
 
     @abstractmethod
