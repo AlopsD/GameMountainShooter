@@ -9,4 +9,4 @@ class Enemy_Shot(Entity):
 
 
     def move(self, ):
-        self.rect.centerx = ENTITY_SPEED[self.name]
+        self.rect.centerx -= ENTITY_SPEED[self.name]

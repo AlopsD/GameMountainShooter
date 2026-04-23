@@ -15,16 +15,16 @@ ENTITY_SPEED = {
     'level_bg4':4,
     'player1': 3,
     'player2' : 3,
-    'shot_player1': 9,
-    'shot_player2': 9,
+    'shot_player1': 4,
+    'shot_player2': 4,
     'enemy1':5,
     'enemy2': 5,
     'enemy3': 6,
     'enemy4':5,
-    'shot_enemy1':5,
-    'shot_enemy2': 5,
-    'shot_enemy3': 6,
-    'shot_enemy4':5}
+    'shot_enemy1':8,
+    'shot_enemy2': 8,
+    'shot_enemy3': 8,
+    'shot_enemy4':8}
 
 ENTITY_HEALTH = {
     'level_bg0':999,
@@ -45,6 +45,8 @@ ENTITY_HEALTH = {
     'shot_enemy3':1,
     'shot_enemy4':1}
 
+ENTITY_SHOT_DELAY = {'player1': 16, 'player2': 20, 'enemy1':17,'enemy2':15,'enemy3':14, 'enemy4':18}
+
 #M
 
 MENU_OPTIONS = ('NEW GAME 1P','NEW GAME 2P - COOPERATIVE', 'NEW GAME 2P - COMPETITIVE', 'GAME OVER','QUIT')
@@ -59,7 +61,7 @@ PLAYER_KEY_LEFT = {'player1': pygame.K_LEFT, 'player2': pygame.K_a}
 
 PLAYER_KEY_RIGHT = {'player1': pygame.K_RIGHT, 'player2': pygame.K_d}
 
-PLAYER_SHOT = {'player1':pygame.K_RCTRL,'player2':pygame.K_LCTRL}
+PLAYER_KEY_SHOT = {'player1':pygame.K_RCTRL,'player2':pygame.K_LCTRL}
 
 
 
