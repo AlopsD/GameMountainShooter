@@ -7,9 +7,43 @@ COLOR_WHITE = (255,255,255)
 #E
 EVENT_ENEMY = pygame.USEREVENT + 1
 
-ENTITY_SPEED = {'level_bg0':0,'level_bg1':1,'level_bg2':2,'level_bg3':3,'level_bg4':4, 'player1': 3, 'player2' : 3, 'enemy1':5,'enemy2': 4,'enemy3': 6,'enemy4':7}
+ENTITY_SPEED = {
+    'level_bg0':0,
+    'level_bg1':1,
+    'level_bg2':2,
+    'level_bg3':3,
+    'level_bg4':4,
+    'player1': 3,
+    'player2' : 3,
+    'shot_player1': 9,
+    'shot_player2': 9,
+    'enemy1':5,
+    'enemy2': 5,
+    'enemy3': 6,
+    'enemy4':5,
+    'shot_enemy1':5,
+    'shot_enemy2': 5,
+    'shot_enemy3': 6,
+    'shot_enemy4':5}
 
-ENTITY_HEALTH = {'level_bg0':999,'level_bg1':999,'level_bg2':999,'level_bg3':999,'level_bg4':999, 'player1': 300,'player2' : 300, 'enemy1':50,'enemy2': 70,'enemy3': 30,'enemy4':25,}
+ENTITY_HEALTH = {
+    'level_bg0':999,
+    'level_bg1':999,
+    'level_bg2':999,
+    'level_bg3':999,
+    'level_bg4':999,
+    'player1': 300,
+    'player2': 300,
+    'shot_player1': 1,
+    'shot_player2': 1,
+    'enemy1':50,
+    'enemy2':70,
+    'enemy3':30,
+    'enemy4':25,
+    'shot_enemy1':1,
+    'shot_enemy2':1,
+    'shot_enemy3':1,
+    'shot_enemy4':1}
 
 #M
 
@@ -25,7 +59,11 @@ PLAYER_KEY_LEFT = {'player1': pygame.K_LEFT, 'player2': pygame.K_a}
 
 PLAYER_KEY_RIGHT = {'player1': pygame.K_RIGHT, 'player2': pygame.K_d}
 
+PLAYER_SHOT = {'player1':pygame.K_RCTRL,'player2':pygame.K_LCTRL}
 
+
+
+PREFIX_DIRECTORY = {'ene':'enemy','pla':'player','lev':'level', 'sho':'shot'}
 #S
 
 SPAWN_TIME = 4800

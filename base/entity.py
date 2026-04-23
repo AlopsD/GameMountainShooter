@@ -2,21 +2,18 @@ from abc import ABC, abstractmethod
 
 import pygame.image
 
-from base.const import ENTITY_HEALTH
+from base.const import ENTITY_HEALTH, PREFIX_DIRECTORY
 
 
 class Entity(ABC):
     def __init__(self, name: str, position: tuple):
         self.name = name
-        direct = ''
-        if name[0:2] == 'pl':
-            direct = 'player'
-        if name[0:2] == 'le':
-            direct = 'level'
-        if name[0:2] == 'en':
-            direct = 'enemy'
+        direct = PREFIX_DIRECTORY.get(name[0:3]) #verifica o diretorio do nome
+        if direct is None:
+            raise ValueError(f'invalid directory : {name}')
 
-        self.surf = pygame.image.load('./asset/'+ direct +'/' + name + '.png').convert_alpha()
+
+        self.surf = pygame.image.load(f'./asset/{direct}/{name}.png').convert_alpha()
         self.rect = self.surf.get_rect(left = position[0], top = position[1])
         self.mask = pygame.mask.from_surface(self.surf)
         self.speed = 0
