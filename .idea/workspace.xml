@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="add png shot and create shot">
-      <change beforePath="$PROJECT_DIR$/.idea/GameMountain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GameMountain.iml" afterDir="false" />
+    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="add png shot and create shot animation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/enemy_shot.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/enemy_shot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/entity_mediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/entity_mediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/player_shot.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/player_shot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +188,11 @@
       <workItem from="1776517730961" duration="9067000" />
       <workItem from="1776596757197" duration="15277000" />
       <workItem from="1776774342464" duration="12453000" />
-      <workItem from="1776902746290" duration="3118000" />
+      <workItem from="1776902746290" duration="3815000" />
+      <workItem from="1776979589656" duration="1211000" />
+      <workItem from="1777034664993" duration="1095000" />
+      <workItem from="1777049724945" duration="7332000" />
+      <workItem from="1777115237411" duration="8688000" />
     </task>
     <task id="LOCAL-00001" summary="game dev">
       <option name="closed" value="true" />
@@ -385,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776902789301</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add png shot and create shot animation">
+      <option name="closed" value="true" />
+      <created>1776905875874</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1776905875874</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,11 +436,12 @@
     <MESSAGE value="fix enemy display" />
     <MESSAGE value="add entity_mediator.py and collision" />
     <MESSAGE value="add png shot and create shot" />
-    <option name="LAST_COMMIT_MESSAGE" value="add png shot and create shot" />
+    <MESSAGE value="add png shot and create shot animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add png shot and create shot animation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GameMountain$game.coverage" NAME="game Coverage Results" MODIFIED="1775601817428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/GameMountain$menu.coverage" NAME="menu Coverage Results" MODIFIED="1775602077682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
-    <SUITE FILE_PATH="coverage/GameMountain$main.coverage" NAME="main Coverage Results" MODIFIED="1776905349181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GameMountain$main.coverage" NAME="main Coverage Results" MODIFIED="1777159657407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

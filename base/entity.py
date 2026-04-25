@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 import pygame.image
 
-from base.const import ENTITY_HEALTH, PREFIX_DIRECTORY
+from base.const import ENTITY_HEALTH, PREFIX_DIRECTORY, ENTITY_DAMAGE, ENTITY_SCORE
 
 
 class Entity(ABC):
@@ -18,6 +18,9 @@ class Entity(ABC):
         self.mask = pygame.mask.from_surface(self.surf)
         self.speed = 0
         self.health = ENTITY_HEALTH[self.name]
+        self.damage = ENTITY_DAMAGE[self.name]
+        self.score = ENTITY_SCORE[self.name]
+        self.last_damage = 'None'
 
 
     @abstractmethod

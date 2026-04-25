@@ -1,6 +1,6 @@
 import pygame
 
-from base.const import WIN_WIDTH, MENU_OPTIONS, COLOR_WHITE, COLOR_ORANGE
+from base.const import WIN_WIDTH, MENU_OPTIONS, C_WHITE, C_ORANGE
 
 
 class Menu:
@@ -22,9 +22,9 @@ class Menu:
 
             for i in range(len(MENU_OPTIONS)):
                 if i == menu_option:
-                    self.menu_text(20, MENU_OPTIONS[i], COLOR_ORANGE, ((WIN_WIDTH/2), 150 + 25 * i))
+                    self.menu_text(20, MENU_OPTIONS[i], C_ORANGE, ((WIN_WIDTH / 2), 150 + 25 * i))
                 else:
-                    self.menu_text(20, MENU_OPTIONS[i], COLOR_WHITE, ((WIN_WIDTH/2), 150 + 25 * i))
+                    self.menu_text(20, MENU_OPTIONS[i], C_WHITE, ((WIN_WIDTH / 2), 150 + 25 * i))
             pygame.display.flip()
 
             for event in pygame.event.get():
