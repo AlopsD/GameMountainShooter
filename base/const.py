@@ -8,8 +8,14 @@ C_GREEN = (0, 255, 0)
 C_CYAN = (0, 255, 255)
 C_RED = (255, 0, 0)
 
+
+COUNT_FILE_LEVEL = { 'level1':5,
+    'level2':4, 'level3':10, 'level4':4, 'level5':4, 'level6':5, }
+
 #E
 EVENT_ENEMY = pygame.USEREVENT + 1
+
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 
 ENTITY_SPEED = {
     'level_bg0':0,
@@ -109,11 +115,26 @@ PLAYER_KEY_SHOT = {'player1':pygame.K_RCTRL,'player2':pygame.K_LCTRL}
 
 
 
-PREFIX_DIRECTORY = {'ene':'enemy','pla':'player','lev':'level', 'sho':'shot'}
+PREFIX_DIRECTORY = {
+    'enemy1':'enemy',
+    'enemy2':'enemy',
+    'enemy3':'enemy',
+    'enemy4':'enemy',
+    'player1' :'player',
+    'player2':'player',
+    'shot':'shot',
+    'level1': 'level/level1',
+    'level2': 'level/level2',
+    'level3': 'level/level3'}
+
 #S
 
 SPAWN_TIME = 4800
 
+#T
+
+TIMEOUT_STEP = 100 #ms
+TIMEOUT_LEVEL = 20000 #ms
 #W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
