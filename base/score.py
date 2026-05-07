@@ -62,7 +62,7 @@ class Score:
             self.score_text(20, name, C_WHITE, SCORE_POS['Name'])
 
             pygame.display.flip()
-            pass
+
 
 
     def show(self):
