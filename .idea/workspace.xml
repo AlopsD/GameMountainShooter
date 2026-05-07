@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="add params directory for all files">
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/level/level3/level_bg9.png" afterDir="false" />
+    <list default="true" id="ccd5117f-19b8-4b47-8755-4a4b5e14db4b" name="Changes" comment="add image background level 3">
+      <change afterPath="$PROJECT_DIR$/asset/background/score_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/db_proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/background/orig.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/background/menu_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +81,11 @@
       <recent name="$PROJECT_DIR$/asset/level" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asset/background" />
       <recent name="$PROJECT_DIR$/asset/level/level2" />
       <recent name="$PROJECT_DIR$/asset/level/level3" />
       <recent name="$PROJECT_DIR$/asset/level/level1" />
       <recent name="$PROJECT_DIR$/asset/shot" />
-      <recent name="$PROJECT_DIR$/asset/enemy" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
@@ -422,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777979675209</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add image background level 3">
+      <option name="closed" value="true" />
+      <created>1777984402653</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1777984402653</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add class for entity_factory.py" />
     <MESSAGE value="add class for player.py" />
     <MESSAGE value="add class for enemy.py" />
     <MESSAGE value="add class for background.py" />
@@ -465,7 +470,19 @@
     <MESSAGE value="add png shot and create shot animation" />
     <MESSAGE value="Rebase with feature_level" />
     <MESSAGE value="add params directory for all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add params directory for all files" />
+    <MESSAGE value="add image background level 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add image background level 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/base/db_proxy.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GameMountain$game.coverage" NAME="game Coverage Results" MODIFIED="1775601817428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />

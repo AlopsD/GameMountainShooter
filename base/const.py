@@ -1,6 +1,11 @@
-#C
+
 import pygame
 
+#W
+WIN_WIDTH = 576
+WIN_HEIGHT = 324
+
+#C
 C_ORANGE = (255, 128, 0)
 C_YELLOW = (255, 255, 0)
 C_WHITE = (255, 255, 255)
@@ -12,6 +17,16 @@ C_RED = (255, 0, 0)
 COUNT_FILE_LEVEL = { 'level1':5,
     'level2':4, 'level3':10, 'level4':4, 'level5':4, 'level6':5, }
 
+
+#D
+
+DISPLAY_NAME = {
+    'level1':'Level 1',
+    'level2':'Level 2',
+    'level3':'Level 3',
+    'level4':'Level 4',
+    'level5':'Level 5',
+    'level6':'Level 6', }
 #E
 EVENT_ENEMY = pygame.USEREVENT + 1
 
@@ -23,6 +38,11 @@ ENTITY_SPEED = {
     'level_bg2':2,
     'level_bg3':3,
     'level_bg4':4,
+    'level_bg5':4.5,
+    'level_bg6':5,
+    'level_bg7':5.5,
+    'level_bg8':6,
+    'level_bg9':6.5,
     'player1': 3,
     'player2' : 3,
     'shot_player1': 4,
@@ -42,6 +62,11 @@ ENTITY_HEALTH = {
     'level_bg2':999,
     'level_bg3':999,
     'level_bg4':999,
+    'level_bg5':999,
+    'level_bg6':999,
+    'level_bg7':999,
+    'level_bg8':999,
+    'level_bg9':999,
     'player1': 300,
     'player2': 300,
     'shot_player1': 1,
@@ -63,6 +88,11 @@ ENTITY_DAMAGE ={
     'level_bg2':0,
     'level_bg3':0,
     'level_bg4':0,
+    'level_bg5':0,
+    'level_bg6':0,
+    'level_bg7':0,
+    'level_bg8':0,
+    'level_bg9':0,
     'player1': 1,
     'player2' : 1,
     'shot_player1': 25,
@@ -83,6 +113,11 @@ ENTITY_SCORE ={
     'level_bg2':0,
     'level_bg3':0,
     'level_bg4':0,
+    'level_bg5':0,
+    'level_bg6':0,
+    'level_bg7':0,
+    'level_bg8':0,
+    'level_bg9':0,
     'player1': 0,
     'player2' : 0,
     'shot_player1': 0,
@@ -99,7 +134,7 @@ ENTITY_SCORE ={
 
 #M
 
-MENU_OPTIONS = ('NEW GAME 1P','NEW GAME 2P - COOPERATIVE', 'NEW GAME 2P - COMPETITIVE', 'GAME OVER','QUIT')
+MENU_OPTIONS = ('NEW GAME 1P','NEW GAME 2P - COOPERATIVE', 'NEW GAME 2P - COMPETITIVE', 'SCORE','QUIT')
 
 #P
 
@@ -130,11 +165,25 @@ PREFIX_DIRECTORY = {
 #S
 
 SPAWN_TIME = 4800
-
+SCORE_POS = {'Title': (WIN_WIDTH / 2, 50),
+             'EnterName': (WIN_WIDTH / 2, 80),
+             'Label': (WIN_WIDTH / 2, 90),
+             'Name': (WIN_WIDTH / 2, 110),
+             0:(WIN_WIDTH / 2, 110),
+             1:(WIN_WIDTH / 2, 130),
+             2:(WIN_WIDTH / 2, 150),
+             3:(WIN_WIDTH / 2, 170),
+             4:(WIN_WIDTH / 2, 190),
+             5:(WIN_WIDTH / 2, 210),
+             6:(WIN_WIDTH / 2, 230),
+             7:(WIN_WIDTH / 2, 250),
+             8:(WIN_WIDTH / 2, 270),
+             9:(WIN_WIDTH / 2, 290),
+             }
 #T
 
 TIMEOUT_STEP = 100 #ms
 TIMEOUT_LEVEL = 20000 #ms
 #W
-WIN_WIDTH = 576
-WIN_HEIGHT = 324
+#WIN_WIDTH = 576
+#WIN_HEIGHT = 324
